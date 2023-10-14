@@ -9,7 +9,7 @@ import { useDispatch } from "react-redux";
 import { setDestination, setOrigin } from "../slices/navSlice";
 
 const HomeScreen = () => {
-  const dispatch = useDispatch();
+const dispatch = useDispatch();
 
   return (
     <SafeAreaView style={tw`bg-white h-full`}>
@@ -54,9 +54,9 @@ const HomeScreen = () => {
           nearbyPlacesAPI="GooglePlacesSearch"
           debounce={400}
         />
-        <NavOptions/>
-        <NavFavorites/>
       </View>
+      <NavOptions/>
+      <NavFavorites/>
     </SafeAreaView>
   );
 };
