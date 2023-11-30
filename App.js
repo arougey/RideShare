@@ -8,8 +8,8 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator} from '@react-navigation/stack';
-import { create } from 'tailwind-react-native-classnames';
 import { KeyboardAvoidingView } from 'react-native';
+
 
 export default function App() {
   const Stack = createStackNavigator();
